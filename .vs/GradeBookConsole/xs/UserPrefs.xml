@@ -1,17 +1,26 @@
 ﻿<Properties StartupConfiguration="{A6DF856B-9D22-4093-A533-A61809FCD75F}|Default">
   <MonoDevelop.Ide.ItemProperties.GradeBook PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/GradeBook/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/GradeBook/Statistics.cs">
     <Files>
-      <File FileName="src/GradeBook/Program.cs" Line="12" Column="2" />
+      <File FileName="src/GradeBook/Program.cs" Line="13" Column="33" />
+      <File FileName="src/GradeBook/Book.cs" Line="51" Column="15" />
+      <File FileName="test/GradeBook.Tests/BookTests.cs" Line="57" Column="30" />
+      <File FileName="src/GradeBook/Statistics.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="GradeBookConsole" expanded="True">
             <Node name="GradeBook" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="Statistics.cs" selected="True" />
             </Node>
+            <Node name="GradeBook.Tests" expanded="True" />
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="GradeBookConsole" selected="True" />
         </State>
       </Pad>
     </Pads>
@@ -19,6 +28,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <DisabledProjects>
     <String>GradeBook.csproj</String>
+    <String>test/GradeBook.Test/GradeBook.Tests/GradeBook.Tests.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <Debugger.DebugSourceFolders />
