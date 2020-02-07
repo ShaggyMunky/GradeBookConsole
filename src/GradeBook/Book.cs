@@ -6,17 +6,24 @@ namespace GradeBook
     public class Book
     {
         private List<double> grades;
-        private string name;
+        public string Name;
 
         public Book(string name)
         {
             grades = new List<double>();
-            this.name = name;
+            Name = name;
         }
 
         public void AddGrade(double grade)
         {
-            grades.Add(grade);
+            if(grade <= 100 && grade >= 0)
+            {
+                grades.Add(grade);
+            }
+            else
+            {
+                Console.WriteLine("Invalid Value");
+            }
         }
 
         public Statistics GetStatistics()
@@ -38,6 +45,11 @@ namespace GradeBook
             stats.Average /= grades.Count;
 
             return stats;
+        }
+
+        public int GetTotalNumberOfGrades()
+        {
+            return grades.Count;
         }
     }
 }

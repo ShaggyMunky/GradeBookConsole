@@ -1,4 +1,3 @@
-using System;
 using Xunit;
 
 namespace GradeBook.Tests
@@ -18,6 +17,17 @@ namespace GradeBook.Tests
             Assert.Equal(85.6, result.Average, 1);
             Assert.Equal(90.5, result.High, 1);
             Assert.Equal(77.3, result.Low, 1);
+        }
+
+        [Fact]
+        public void Execute_ChecksValueLessThanZero()
+        {
+            var book = new Book("");
+            book.AddGrade(-2);
+
+            var result = book.GetTotalNumberOfGrades();
+
+            Assert.Equal(0, result);
         }
     }
 }
