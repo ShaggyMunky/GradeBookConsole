@@ -5,7 +5,7 @@ namespace GradeBook
 {
     public class Book
     {
-        private List<double> grades;
+        private readonly List<double> grades;
         public string Name;
 
         public Book(string name)
@@ -22,7 +22,7 @@ namespace GradeBook
             }
             else
             {
-                Console.WriteLine("Invalid Value");
+                throw new ArgumentException($"Invalid {nameof(grade)}");
             }
         }
 
@@ -43,7 +43,24 @@ namespace GradeBook
             }
 
             stats.Average /= grades.Count;
-
+            switch (stats.Average)
+            {
+                case var d when d >= 90.0:
+                    stats.Letter = 'A';
+                    break;
+                case var d when d >= 80.0:
+                    stats.Letter = 'B';
+                    break;
+                case var d when d >= 70.0:
+                    stats.Letter = 'C';
+                    break;
+                case var d when d >= 60.0:
+                    stats.Letter = 'D';
+                    break;
+                default:
+                    stats.Letter = 'F';
+                    break;
+            }
             return stats;
         }
 
