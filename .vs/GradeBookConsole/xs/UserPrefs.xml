@@ -1,21 +1,21 @@
 ﻿<Properties StartupConfiguration="{A6DF856B-9D22-4093-A533-A61809FCD75F}|Default">
   <MonoDevelop.Ide.ItemProperties.GradeBook PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/GradeBook/Delegates/GradeAddedDelegate.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/GradeBook/NamedObject.cs">
     <Files>
-      <File FileName="src/GradeBook/Program.cs" Line="36" Column="52" />
-      <File FileName="src/GradeBook/Book.cs" Line="21" Column="35" />
+      <File FileName="src/GradeBook/Program.cs" Line="54" Column="49" />
+      <File FileName="src/GradeBook/Book.cs" Line="37" Column="46" />
       <File FileName="test/GradeBook.Tests/BookTests.cs" Line="20" Column="46" />
       <File FileName="src/GradeBook/Statistics.cs" Line="8" Column="28" />
-      <File FileName="src/GradeBook/Delegates/GradeAddedDelegate.cs" Line="3" Column="14" />
+      <File FileName="src/GradeBook/Delegates/GradeAddedDelegate.cs" Line="1" Column="14" />
+      <File FileName="src/GradeBook/NamedObject.cs" Line="6" Column="8" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="GradeBookConsole" expanded="True">
             <Node name="GradeBook" expanded="True">
-              <Node name="Delegates" expanded="True">
-                <Node name="GradeAddedDelegate.cs" selected="True" />
-              </Node>
+              <Node name="Delegates" expanded="True" />
+              <Node name="NamedObject.cs" selected="True" />
             </Node>
             <Node name="GradeBook.Tests" expanded="True" />
           </Node>
