@@ -1,10 +1,12 @@
-﻿using System;
+﻿using GradeBook.Delegates;
+
 namespace GradeBook.Interfaces
 {
-    public class IBook
+    public interface IBook
     {
-        public IBook()
-        {
-        }
+        void AddGrade(double grade);
+        Statistics GetStatistics();
+        string Name { get; }
+        event GradeAddedDelegate GradeAdded;
     }
 }

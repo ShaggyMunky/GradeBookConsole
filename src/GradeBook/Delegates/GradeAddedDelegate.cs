@@ -1,10 +1,5 @@
 ﻿using System;
 namespace GradeBook.Delegates
 {
-    public class GradeAddedDelegate
-    {
-        public GradeAddedDelegate()
-        {
-        }
-    }
+    public delegate void GradeAddedDelegate(object sender, EventArgs args);
 }

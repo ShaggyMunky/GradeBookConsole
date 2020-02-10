@@ -7,7 +7,7 @@ namespace GradeBook.Tests
         [Fact]
         public void Execute_SetsHighLowAndAverageGrade()
         {
-            var book = new Book("");
+            var book = new InMemoryBook("");
             book.AddGrade(89.1);
             book.AddGrade(90.5);
             book.AddGrade(77.3);
@@ -23,7 +23,7 @@ namespace GradeBook.Tests
         [Fact]
         public void Execute_ChecksValueLessThanZero()
         {
-            var book = new Book("");
+            var book = new InMemoryBook("");
             book.AddGrade(-2);
 
             var result = book.GetTotalNumberOfGrades();
