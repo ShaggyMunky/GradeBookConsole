@@ -7,5 +7,6 @@
 
   <ItemGroup>
     <Folder Include="Delegates\" />
+    <Folder Include="Abstracts\" />
   </ItemGroup>
 </Project>
