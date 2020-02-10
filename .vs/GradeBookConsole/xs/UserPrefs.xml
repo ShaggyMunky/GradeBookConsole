@@ -1,24 +1,24 @@
 ﻿<Properties StartupConfiguration="{A6DF856B-9D22-4093-A533-A61809FCD75F}|Default">
   <MonoDevelop.Ide.ItemProperties.GradeBook PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/GradeBook/Abstracts/BookBase.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/GradeBook/Interfaces/IBook.cs">
     <Files>
-      <File FileName="src/GradeBook/Program.cs" Line="32" Column="27" />
-      <File FileName="src/GradeBook/Book.cs" Line="16" Column="1" />
-      <File FileName="test/GradeBook.Tests/BookTests.cs" Line="20" Column="46" />
+      <File FileName="src/GradeBook/Program.cs" Line="24" Column="41" />
+      <File FileName="src/GradeBook/Book.cs" Line="8" Column="37" />
+      <File FileName="test/GradeBook.Tests/BookTests.cs" Line="10" Column="40" />
       <File FileName="src/GradeBook/Statistics.cs" Line="8" Column="28" />
       <File FileName="src/GradeBook/Delegates/GradeAddedDelegate.cs" Line="1" Column="14" />
       <File FileName="src/GradeBook/NamedObject.cs" Line="9" Column="1" />
-      <File FileName="src/GradeBook/Abstracts/BookBase.cs" Line="4" Column="20" />
+      <File FileName="src/GradeBook/Abstracts/BookBase.cs" Line="4" Column="31" />
+      <File FileName="src/GradeBook/Interfaces/IBook.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="GradeBookConsole" expanded="True">
             <Node name="GradeBook" expanded="True">
-              <Node name="Abstracts" expanded="True">
-                <Node name="BookBase.cs" selected="True" />
+              <Node name="Interfaces" expanded="True">
+                <Node name="IBook.cs" selected="True" />
               </Node>
-              <Node name="Delegates" expanded="True" />
             </Node>
             <Node name="GradeBook.Tests" expanded="True" />
           </Node>
